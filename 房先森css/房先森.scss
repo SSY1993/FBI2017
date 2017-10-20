@@ -1,0 +1,397 @@
+@charset "utf-8";
+*{
+    margin: 0;padding: 0;
+    font-family: "微软雅黑";
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 0.165rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 0.5rem;
+    ul{
+        width: 98%;
+        height: 0.5rem;
+        margin:  0 auto;
+        li{
+            margin-top: 0.08rem;
+            text-align: center;
+            color: #999999;
+        }
+        li:nth-of-type(1){
+            float: left;
+            margin-left: 0.08rem;
+            img{
+                width: 1.07rem;
+            }
+        }
+        li:nth-of-type(2){
+            float: right;
+            font-size: 0.22rem;
+        }
+         li:nth-of-type(3){
+            float: right;
+            font-size: 0.22rem;
+            margin-right: 0.08rem;
+        }
+    }
+}
+.banna{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+.fenlei{
+    width: 100%;
+    height: 1.8rem;
+    margin-top: 0.18rem;
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+        li{
+            width: 0.6rem;
+            height: 0.6rem;
+            border-radius: 50%;
+            p{
+                font-size: 0.14rem;
+                color: #333;
+                margin-top: 0.65rem;
+                padding: 0.05rem 0;
+            }
+        }
+    }
+    .ul2{
+        margin-top: 0.35rem;
+    }
+}
+.fenge{
+    width: 100%;
+    height: 0.09rem;
+    background-color: #E7E1CD;
+    margin-top: 0.2rem;
+}
+.zhuangxiu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 0.16rem;
+    .div1{
+        width: 0.025rem;
+        height: 0.21rem;
+        background-color: green;
+        margin-left: 0.09rem;
+    }
+    p:nth-of-type(1){
+        font-size: 0.18rem;
+        color: #000000;
+        margin-left: 0.05rem;
+    }
+    P:nth-of-type(2){
+        font-size: 0.12rem;
+        color: #999;
+         margin-left: 0.08rem;
+    }
+}
+.taocan{
+    width: 100%;
+    margin-top: 0.16rem;
+    position: relative;
+    img{
+        width: 100%;
+    }
+    ul{
+        width: 20%;
+        position: absolute;
+        bottom: -20px;
+        left: 35%;
+        display: flex;
+        li{
+            width: 0.1rem;
+            height: 0.1rem;
+            border-radius: 50%;
+            background-color:#01BF9B;
+            margin-left: 0.2rem;
+        }
+    }
+}
+//增项
+.zengxiang{
+    width: 100%;
+    margin-top: 0.36rem;
+    ul{
+        width: 98%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        li{
+            span:nth-of-type(1){
+                color:#01BF9B;
+                font-size: 0.18rem;
+            }
+            span:nth-of-type(2){
+                color: #000000;
+                font-size: 0.14rem;
+            }
+        }
+    }
+}
+//input
+.inp{
+    width: 100%;
+    text-align: center;
+    p{
+        margin-top: 0.125rem;
+        input{
+            width: 2.93rem;
+            height: 0.35rem;
+            border-radius:5px;
+            border:#eaeaea solid 1px;
+            font-size: 0.14rem;
+        }
+        button{
+            width: 2.93rem;
+            height: 0.35rem;
+            background-color: #FEB605;
+            color: white;
+            font-size: 0.18rem;
+            border-radius:5px;
+            border:none;
+        }
+    }
+}
+//设计师
+.sjs{
+    width: 100%;
+    margin-top: 0.2rem;
+    ul{
+        width: 98%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        li{
+            p:nth-of-type(1){
+                margin: 0 auto;
+                width: 0.7rem;
+                height: 0.7rem;
+                background-color: red;
+                border-radius: 50%;
+            }
+            p:nth-of-type(2){
+                font-size: 0.18rem;
+                color: #000000;
+                text-align: center;
+            }
+            p:nth-of-type(3){
+                width: 0.6rem;
+                height: 0.16rem;
+                background-color: #FEB605;
+                color: white;
+                font-size: 0.12rem;
+                text-align: center;
+                line-height: 0.16rem;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+.huan{
+    width: 100%;
+    margin-top: 0.18rem;
+    ul{
+        width: 98%;
+        margin: 0 auto;
+        display: flex;
+        li{
+            width: 50%;
+            height: 0.35rem;
+            border: 1px solid #cacaca;
+            line-height: 0.35rem;
+            text-align: center;
+            
+            span:nth-of-type(1){
+                color:#3CC994;
+                font-size: 0.19rem;
+            }
+            span:nth-of-type(2){
+                color: #3CC994;
+                font-size: 0.19rem;
+                
+            }
+        }
+    }
+}
+.xgt{
+    width: 100%;
+   .xgt1{
+       width: 98%;
+       margin: 0 auto;
+       margin-top: 0.18rem;
+       text-align: center;
+   }
+   .xgt2{
+       width: 98%;
+       margin: 0 auto;
+       margin-top: 0.04rem;
+       display: flex;
+       justify-content: space-between;
+       p{
+           width: 49.5%;
+           img{
+               width: 100%;
+           }
+       }
+   }
+}
+//zhibo
+.zhibo{
+    width: 100%;
+   .xgt1{
+       width: 98%;
+       margin: 0 auto;
+       margin-top: 0.18rem;
+       text-align: center;
+   }
+   p{  
+       margin-top: 0.1rem;
+       margin-left: 0.05rem;
+       span:nth-of-type(1){
+           font-size: 0.14rem;
+       }
+       span:nth-of-type(2){
+           display: inline-block;
+           width: 0.8rem;
+           height: 0.2rem;
+           line-height: 0.2rem;
+           text-align: center;
+            color: white;
+            font-size: 0.14rem;
+//          padding: 0.04rem;
+            border-radius: 5px;
+           background-color:#39C893;
+       }
+   }
+}
+.gonglve{
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 0.15rem 0;
+    display: flex;
+    .left{
+        width: 30%;
+        padding: 0.05rem;
+    }
+    .you{
+        width: 70%;
+        padding: 0 0.08rem;
+        p:nth-of-type(1){
+          font-size: 0.18rem;
+          line-height: 0.3rem;
+        }
+        div{
+            margin-top: 0.22rem;
+            p:nth-of-type(1){
+                float: left;
+                 font-size: 0.145rem;
+            }
+            p:nth-of-type(2){
+                float: right;
+                margin-right: 0.6rem;
+                font-size: 0.145rem;
+            }
+        }
+    }
+}
+//文字
+.wenzi{
+    width: 100%;
+    margin-top: 0.16rem;
+    border-top: 0.09rem solid #E7E1CD;
+    border-bottom: 0.09rem solid #E7E1CD;
+    padding: 0.18rem 0;
+    p{  
+        font-size: 0.14rem;
+        color: #333333;
+        line-height: 0.25rem;
+        padding: 0 0.08rem;
+        margin-top: 0.13rem;
+    }
+}
+//服务热线
+.rexian{
+    margin-top: 0.18rem;
+    text-align: center;
+    span:nth-of-type(1){
+        color:#3AC994;
+        font-size: 0.20rem;
+    }
+    span:nth-of-type(2){
+        color: #333333;
+        font-size: 0.14rem;
+    }
+}
+.dingbu{
+    width: 0.7rem;
+    height: 0.7rem;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    p{
+       color: #9c9c9c;
+       text-align: center;
+       line-height: 0.7rem;
+       font-size: 0.4rem;
+    }
+}
+.zzc{
+    width: 100%;
+    height: 0.53rem;
+    position: relative;
+    bottom: 0px;
+    background: rgba(51,51,51,0.8);
+    .xx{
+        position: absolute;
+        top:0px;
+        left: 0px;
+        img{
+            width: 70%;
+        }
+    }
+    .tu{
+        text-align: center;
+        position: absolute;
+        left:-42px;
+        img{
+            width: 60%;
+        }
+    }
+    .mianfei{
+        width: 0.875rem;
+        height: 0.25rem;
+        position: absolute;
+        right: 2px;top:15px;
+        background-color:#FDB505;
+        text-align: center;
+        line-height: 0.25rem;
+        border-radius: 20px;
+        color: white;
+        font-size: 0.12rem;
+    }
+}

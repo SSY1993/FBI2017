@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%; }
+
+img {
+  width: 100%;
+  max-width: 100%; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  width: 7.5rem;
+  height: 1rem;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #FFF; }
+  header .logo {
+    width: 2.14rem;
+    margin-top: 0.12rem;
+    margin-left: 0.17rem; }
+  header .zx {
+    font-size: 0.33rem;
+    margin-top: 0.35rem;
+    margin-right: 0.45rem; }
+  header .nav {
+    width: 0.5rem;
+    text-align: center;
+    margin-right: 0.17rem;
+    margin-top: -0.14rem; }
+    header .nav p {
+      font-size: 0.19rem; }
+
+.swiper1 {
+  margin-top: 1rem;
+  height: 2.56rem; }
+
+section {
+  width: 7.16rem;
+  margin: 0.2rem auto; }
+  section .ul {
+    width: 100%;
+    height: 0.47rem;
+    background: #f4f4f4;
+    font-size: 0.24rem;
+    display: flex; }
+    section .ul li {
+      margin-left: 0.1rem;
+      line-height: 0.47rem; }
+  section .zx2 {
+    width: 100%;
+    margin-top: 0.35rem; }
+    section .zx2 .p1 {
+      font-size: 0.36rem;
+      text-align: center; }
+    section .zx2 .p2 {
+      margin-top: 0.33rem;
+      font-size: 0.17rem;
+      margin-left: 1.94rem; }
+      section .zx2 .p2 img {
+        width: 0.29rem;
+        height: 0.29rem; }
+      section .zx2 .p2 span {
+        margin-left: 0.54rem; }
+        section .zx2 .p2 span img {
+          width: 0.4rem;
+          height: 0.29rem; }
+  section hr {
+    margin-top: 0.31rem; }
+  section .ul2 {
+    width: 100%;
+    font-size: 0.2rem;
+    display: flex;
+    flex-wrap: wrap; }
+    section .ul2 li {
+      width: 1.64rem;
+      height: 0.34rem;
+      border: 1px solid #ececec;
+      text-align: center;
+      line-height: 0.34rem;
+      border-radius: 0.5rem;
+      margin-left: 0.1rem;
+      margin-top: 0.23rem; }
+  section .p3 {
+    font-size: 0.2rem;
+    text-indent: 2em;
+    margin-top: 0.3rem; }
+  section .img {
+    width: 5.28rem;
+    height: 3.55rem;
+    margin: 0.3rem auto; }
+  section .dj {
+    width: 100%;
+    height: 0.7rem;
+    border: 1px solid #47cc9c;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.7rem;
+    color: #47cc9c;
+    margin-top: 0.2rem; }
+  section .tb {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.38rem; }
+    section .tb .left {
+      width: 1rem;
+      height: 1.49rem; }
+      section .tb .left .left2 {
+        width: 1rem;
+        height: 1rem;
+        border: 3px solid #1b9bf5;
+        border-radius: 50%; }
+        section .tb .left .left2 i {
+          font-size: 0.56rem;
+          margin-left: 0.18rem;
+          margin-top: 0.18rem;
+          color: #1b9bf5; }
+      section .tb .left p {
+        font-size: 0.21rem;
+        color: #4faaf6;
+        text-align: center;
+        margin-top: 0.23rem; }
+    section .tb .right {
+      width: 1rem;
+      height: 1.49rem; }
+      section .tb .right .right2 {
+        width: 1rem;
+        height: 1rem;
+        border: 3px solid #fdb707;
+        border-radius: 50%; }
+        section .tb .right .right2 i {
+          font-size: 0.56rem;
+          margin-left: 0.2rem;
+          margin-top: 0.15rem;
+          color: #fdb707; }
+      section .tb .right p {
+        font-size: 0.24rem;
+        color: #fdb707;
+        text-align: center;
+        margin-top: 0.23rem; }
+  section .jr {
+    width: 100%;
+    height: 0.7rem;
+    border: 1px solid #47cc9c;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.7rem;
+    color: #47cc9c;
+    margin-top: 0.2rem; }
+  section .zz {
+    width: 7.03rem;
+    height: 4.48rem;
+    border-radius: 0.1rem;
+    background: #000;
+    opacity: 0.8;
+    position: absolute;
+    top: 78%;
+    left: 0.24rem; }
+    section .zz .ul3 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 0.8rem; }
+      section .zz .ul3 li {
+        width: 1.35rem;
+        height: 1.35rem; }
+        section .zz .ul3 li p {
+          color: #FFF;
+          font-size: 0.32rem;
+          text-align: center;
+          margin-top: 0.25rem; }
+    section .zz .p4 {
+      width: 5.63rem;
+      height: 0.8rem;
+      background: #FFF;
+      border-radius: 0.1rem;
+      position: absolute;
+      bottom: 0.34rem;
+      left: 0.7rem;
+      text-align: center; }
+  section .box {
+    width: 100%;
+    height: 0.18rem;
+    background: #f4f4f4; }
+  section .box1 {
+    width: 100%; }
+    section .box1 .pp {
+      width: 1.7rem;
+      height: 0.43rem;
+      font-size: 0.32rem;
+      text-align: center;
+      border-left: 5px solid #39c893;
+      line-height: 0.43rem; }
+    section .box1 .ul4 {
+      width: 100%;
+      height: 2.08rem;
+      margin-top: 0.2rem; }
+      section .box1 .ul4 li {
+        width: 100%;
+        height: 2rem;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #CCCCCC;
+        margin-top: 0.4rem; }
+        section .box1 .ul4 li .img2 {
+          width: 1.89rem;
+          height: 1.44rem; }
+          section .box1 .ul4 li .img2 img {
+            width: 100%; }
+        section .box1 .ul4 li .ww {
+          width: 70%;
+          font-size: 0.3rem; }
+          section .box1 .ul4 li .ww .bottom {
+            display: flex;
+            margin-top: 0.8rem; }
+            section .box1 .ul4 li .ww .bottom p img {
+              width: 0.29rem; }
+  section .box2 {
+    width: 100%;
+    height: 0.18rem;
+    background: #f4f4f4;
+    margin-top: 9.4rem; }
+  section .p5 {
+    font-size: 0.25rem;
+    text-indent: 2em; }
+  section .box3 {
+    width: 100%;
+    height: 0.18rem;
+    background: #f4f4f4;
+    margin-top: 0.3rem; }
+  section .icon-backtop {
+    font-size: 0.93rem;
+    position: fixed;
+    right: 0.19rem;
+    bottom: 2.3rem;
+    z-index: 10;
+    background: #FFF;
+    opacity: 0.6; }
+  section .p6 {
+    width: 3.71rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    margin: 0.35rem auto; }
+    section .p6 img {
+      width: 0.32rem; }
+    section .p6 span {
+      font-size: 0.23rem; }
+  section .ul5 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    section .ul5 li {
+      font-size: 0.25rem; }
+      section .ul5 li:hover {
+        color: #3ac895; }
+
+.footer {
+  width: 100%;
+  height: 1.05rem;
+  background: #333333;
+  position: relative; }
+  .footer img {
+    width: 0.47rem;
+    height: 0.47rem;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .footer .img3 {
+    width: 1.04rem;
+    height: 0.89rem;
+    margin-left: 0.77rem;
+    margin-top: 0.05rem; }
+  .footer .i1 {
+    font-size: 0.3rem;
+    display: block;
+    color: #efd315;
+    margin-left: 1.99rem;
+    padding-top: 0.17rem; }
+  .footer .i2 {
+    font-size: 0.3rem;
+    display: block;
+    color: #fefefe;
+    margin-left: 1.71rem;
+    margin-top: 0.12rem; }
+  .footer .box4 {
+    width: 1.76rem;
+    height: 0.5rem;
+    background: #feb605;
+    border-radius: 0.5rem;
+    font-size: 0.22rem;
+    color: #FFF;
+    text-align: center;
+    line-height: 0.5rem;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.36rem; }
+
+.img4 {
+  width: 100%;
+  margin-top: -0.2rem; }
